@@ -17,7 +17,6 @@
 PRODUCT_COPY_FILES += \
     vendor/samsung/gtexswifi/proprietary/app/Bluetooth/Bluetooth.apk:system/app/Bluetooth/Bluetooth.apk \
     vendor/samsung/gtexswifi/proprietary/app/Bluetooth/lib/arm/libbluetooth_jni.so:system/app/Bluetooth/lib/arm/libbluetooth_jni.so \
-    vendor/samsung/gtexswifi/proprietary/bin/at_distributor:system/bin/at_distributor \
     vendor/samsung/gtexswifi/proprietary/bin/auditd:system/bin/auditd \
     vendor/samsung/gtexswifi/proprietary/bin/batterysrv:system/bin/batterysrv \
     vendor/samsung/gtexswifi/proprietary/bin/calibration_init:system/bin/calibration_init \
@@ -30,8 +29,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtexswifi/proprietary/bin/download:system/bin/download \
     vendor/samsung/gtexswifi/proprietary/bin/drsd:system/bin/drsd \
     vendor/samsung/gtexswifi/proprietary/bin/engpc:system/bin/engpc \
-    vendor/samsung/gtexswifi/proprietary/bin/ext_data.sh:system/bin/ext_data.sh \
-    vendor/samsung/gtexswifi/proprietary/bin/ext_kill.sh:system/bin/ext_kill.sh \
     vendor/samsung/gtexswifi/proprietary/bin/ext_symlink.sh:system/bin/ext_symlink.sh \
     vendor/samsung/gtexswifi/proprietary/bin/lpm:system/bin/lpm \
     vendor/samsung/gtexswifi/proprietary/bin/macloader:system/bin/macloader \
@@ -39,9 +36,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtexswifi/proprietary/bin/modem_control:system/bin/modem_control \
     vendor/samsung/gtexswifi/proprietary/bin/modemd:system/bin/modemd \
     vendor/samsung/gtexswifi/proprietary/bin/npsmobex:system/bin/npsmobex \
+    vendor/samsung/gtexswifi/proprietary/bin/phoneserver:system/bin/phoneserver \
     vendor/samsung/gtexswifi/proprietary/bin/prepare_param.sh:system/bin/prepare_param.sh \
     vendor/samsung/gtexswifi/proprietary/bin/refnotify:system/bin/refnotify \
-    vendor/samsung/gtexswifi/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/gtexswifi/proprietary/bin/scs:system/bin/scs \
     vendor/samsung/gtexswifi/proprietary/bin/slogmodem:system/bin/slogmodem \
     vendor/samsung/gtexswifi/proprietary/bin/sprd_res_monitor:system/bin/sprd_res_monitor \
@@ -76,7 +73,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtexswifi/proprietary/lib/libaf_running.so:system/lib/libaf_running.so \
     vendor/samsung/gtexswifi/proprietary/lib/libaf_tune.so:system/lib/libaf_tune.so \
     vendor/samsung/gtexswifi/proprietary/lib/libatchannel.so:system/lib/libatchannel.so \
-    vendor/samsung/gtexswifi/proprietary/lib/libatparser.so:system/lib/libatparser.so \
     vendor/samsung/gtexswifi/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
     vendor/samsung/gtexswifi/proprietary/lib/libawb.so:system/lib/libawb.so \
     vendor/samsung/gtexswifi/proprietary/lib/libbm.so:system/lib/libbm.so \
@@ -101,6 +97,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtexswifi/proprietary/lib/liblsc.so:system/lib/liblsc.so \
     vendor/samsung/gtexswifi/proprietary/lib/libmaet.so:system/lib/libmaet.so \
     vendor/samsung/gtexswifi/proprietary/lib/libmemoryheapion.so:system/lib/libmemoryheapion.so \
+    vendor/samsung/gtexswifi/proprietary/lib/libnvexchange.so:system/lib/libnvexchange.so \
     vendor/samsung/gtexswifi/proprietary/lib/libomafldrm.so:system/lib/libomafldrm.so \
     vendor/samsung/gtexswifi/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
     vendor/samsung/gtexswifi/proprietary/lib/libomx_aacdec_sprd.so:system/lib/libomx_aacdec_sprd.so \
@@ -112,8 +109,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtexswifi/proprietary/lib/libomx_m4vh263enc_hw_sprd.so:system/lib/libomx_m4vh263enc_hw_sprd.so \
     vendor/samsung/gtexswifi/proprietary/lib/libomx_mp3dec_sprd.so:system/lib/libomx_mp3dec_sprd.so \
     vendor/samsung/gtexswifi/proprietary/lib/libomx_vpxdec_hw_sprd.so:system/lib/libomx_vpxdec_hw_sprd.so \
-    vendor/samsung/gtexswifi/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
-    vendor/samsung/gtexswifi/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/gtexswifi/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/samsung/gtexswifi/proprietary/lib/libsamsungRecord.so:system/lib/libsamsungRecord.so \
     vendor/samsung/gtexswifi/proprietary/lib/libsamsungSoundbooster.so:system/lib/libsamsungSoundbooster.so \
@@ -128,6 +123,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtexswifi/proprietary/lib/libstlport.so:system/lib/libstlport.so \
     vendor/samsung/gtexswifi/proprietary/lib/libstrongswan.so:system/lib/libstrongswan.so \
     vendor/samsung/gtexswifi/proprietary/lib/libsxqk_skia.so:system/lib/libsxqk_skia.so \
+    vendor/samsung/gtexswifi/proprietary/lib/libvbeffect.so:system/lib/libvbeffect.so \
     vendor/samsung/gtexswifi/proprietary/lib/libvbpga.so:system/lib/libvbpga.so \
     vendor/samsung/gtexswifi/proprietary/lib/libwvm.so:system/lib/libwvm.so \
     vendor/samsung/gtexswifi/proprietary/lib/libynoise.so:system/lib/libynoise.so \
@@ -143,6 +139,4 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtexswifi/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/samsung/gtexswifi/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/samsung/gtexswifi/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
-    vendor/samsung/gtexswifi/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-    vendor/samsung/gtexswifi/proprietary/lib/libnvexchange.so:system/lib/libnvexchange.so \
-    vendor/samsung/gtexswifi/proprietary/lib/libvbeffect.so:system/lib/libvbeffect.so
+    vendor/samsung/gtexswifi/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so

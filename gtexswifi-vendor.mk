@@ -57,8 +57,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtexswifi/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
     vendor/samsung/gtexswifi/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
     vendor/samsung/gtexswifi/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
-    vendor/samsung/gtexswifi/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
-    vendor/samsung/gtexswifi/proprietary/lib/drm/libomaplugin.so:system/lib/drm/libomaplugin.so \
     vendor/samsung/gtexswifi/proprietary/lib/hw/bluetooth.default.so:system/lib/hw/bluetooth.default.so \
     vendor/samsung/gtexswifi/proprietary/lib/hw/camera.sc8830.so:system/lib/hw/camera.sc8830.so \
     vendor/samsung/gtexswifi/proprietary/lib/hw/sensors.sc8830.so:system/lib/hw/sensors.sc8830.so \
@@ -98,7 +96,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtexswifi/proprietary/lib/libmaet.so:system/lib/libmaet.so \
     vendor/samsung/gtexswifi/proprietary/lib/libmemoryheapion.so:system/lib/libmemoryheapion.so \
     vendor/samsung/gtexswifi/proprietary/lib/libnvexchange.so:system/lib/libnvexchange.so \
-    vendor/samsung/gtexswifi/proprietary/lib/libomafldrm.so:system/lib/libomafldrm.so \
     vendor/samsung/gtexswifi/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
     vendor/samsung/gtexswifi/proprietary/lib/libomx_aacdec_sprd.so:system/lib/libomx_aacdec_sprd.so \
     vendor/samsung/gtexswifi/proprietary/lib/libomx_avcdec_hw_sprd.so:system/lib/libomx_avcdec_hw_sprd.so \
@@ -125,7 +122,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtexswifi/proprietary/lib/libsxqk_skia.so:system/lib/libsxqk_skia.so \
     vendor/samsung/gtexswifi/proprietary/lib/libvbeffect.so:system/lib/libvbeffect.so \
     vendor/samsung/gtexswifi/proprietary/lib/libvbpga.so:system/lib/libvbpga.so \
-    vendor/samsung/gtexswifi/proprietary/lib/libwvm.so:system/lib/libwvm.so \
     vendor/samsung/gtexswifi/proprietary/lib/libynoise.so:system/lib/libynoise.so \
     vendor/samsung/gtexswifi/proprietary/media/battery_cover.spi:system/media/battery_cover.spi \
     vendor/samsung/gtexswifi/proprietary/media/battery_error.spi:system/media/battery_error.spi \
@@ -136,7 +132,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtexswifi/proprietary/media/incompatible_charger.spi:system/media/incompatible_charger.spi \
     vendor/samsung/gtexswifi/proprietary/media/percentage.spi:system/media/percentage.spi \
     vendor/samsung/gtexswifi/proprietary/sbin/sswap:root/sbin/sswap \
-    vendor/samsung/gtexswifi/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
-    vendor/samsung/gtexswifi/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
+    vendor/samsung/gtexswifi/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+    vendor/samsung/gtexswifi/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+    vendor/samsung/gtexswifi/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
+    vendor/samsung/gtexswifi/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
+    vendor/samsung/gtexswifi/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/samsung/gtexswifi/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/samsung/gtexswifi/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so

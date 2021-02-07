@@ -1,4 +1,4 @@
-# Copyright (C) 2017-2020 The LineageOS Project
+# Copyright (C) 2017-2021 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -83,6 +83,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtexswifi/proprietary/lib/libcalibration.so:system/lib/libcalibration.so \
     vendor/samsung/gtexswifi/proprietary/lib/libcc_manager.so:system/lib/libcc_manager.so \
     vendor/samsung/gtexswifi/proprietary/lib/libcharon.so:system/lib/libcharon.so \
+    vendor/samsung/gtexswifi/proprietary/lib/libcrptoo.so:system/lib/libcrptoo.so \
     vendor/samsung/gtexswifi/proprietary/lib/libdeflicker.so:system/lib/libdeflicker.so \
     vendor/samsung/gtexswifi/proprietary/lib/libedmnativehelper.so:system/lib/libedmnativehelper.so \
     vendor/samsung/gtexswifi/proprietary/lib/libefuse.so:system/lib/libefuse.so \
@@ -90,6 +91,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtexswifi/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
     vendor/samsung/gtexswifi/proprietary/lib/libgpspc.so:system/lib/libgpspc.so \
     vendor/samsung/gtexswifi/proprietary/lib/libhydra.so:system/lib/libhydra.so \
+    vendor/samsung/gtexswifi/proprietary/lib/libicuoc.so:system/lib/libicuoc.so \
     vendor/samsung/gtexswifi/proprietary/lib/libiwnpi.so:system/lib/libiwnpi.so \
     vendor/samsung/gtexswifi/proprietary/lib/liblsc.so:system/lib/liblsc.so \
     vendor/samsung/gtexswifi/proprietary/lib/libmaet.so:system/lib/libmaet.so \
@@ -105,6 +107,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtexswifi/proprietary/lib/libomx_m4vh263enc_hw_sprd.so:system/lib/libomx_m4vh263enc_hw_sprd.so \
     vendor/samsung/gtexswifi/proprietary/lib/libomx_mp3dec_sprd.so:system/lib/libomx_mp3dec_sprd.so \
     vendor/samsung/gtexswifi/proprietary/lib/libomx_vpxdec_hw_sprd.so:system/lib/libomx_vpxdec_hw_sprd.so \
+    vendor/samsung/gtexswifi/proprietary/lib/libool.so:system/lib/libool.so \
     vendor/samsung/gtexswifi/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/samsung/gtexswifi/proprietary/lib/libsamsungRecord.so:system/lib/libsamsungRecord.so \
     vendor/samsung/gtexswifi/proprietary/lib/libsamsungSoundbooster.so:system/lib/libsamsungSoundbooster.so \
